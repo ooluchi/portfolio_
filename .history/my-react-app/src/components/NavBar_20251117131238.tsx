@@ -1,11 +1,10 @@
-import "./index.css";
-
+import React from 'react'
 
 export default function NavBar() {
   return (
     <nav>
-      <div className="flex space-x-4">
-        <ul className="flex space-x-4">
+      <div>
+        <ul className="no-underl">
           <li className=""><a href="#hero">Home</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#about">About me</a></li>

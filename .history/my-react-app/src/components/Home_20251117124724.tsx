@@ -1,5 +1,4 @@
 import { FaGithub, FaLinkedin, FaMedium } from "react-icons/fa";
-import "./index.css";
 
 export default function Home() {
   return (

@@ -1,5 +1,5 @@
-import "./index.css";
-
+import React from 'react',
+import .""
 
 export default function NavBar() {
   return (
