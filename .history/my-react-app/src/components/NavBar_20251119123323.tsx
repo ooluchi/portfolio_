@@ -1,0 +1,23 @@
+import "../index.css";
+
+
+export default function NavBar() {
+  return (
+    <nav>
+      <div className="flex justify-around items-center">
+        <h1 className="font-bold">Oluchi</h1>
+        <ul className=" flex flex-col mdgap-8 list-none">
+          <li className=""><a href="#">Home</a></li>
+          <li className=""><a href="#">Projects</a></li>
+          <li className=""><a href="#">About me</a></li>
+          <li className=""><a href="#">Contact me</a></li>
+          <li className=""><a href="#">Resume</a></li>
+        </ul>
+        
+      </div>
+      
+    </nav>
+  )
+}
+
+

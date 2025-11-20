@@ -1,0 +1,22 @@
+import "../index.css";
+
+
+export default function NavBar() {
+  return (
+    <nav>
+      <div className="flex ">
+        <ul className="">
+          <li className="flex-1"><a href="">Home</a></li>
+          <li className="flex-1"><a href="">Projects</a></li>
+          <li className="flex-1"><a href="">About me</a></li>
+          <liclassName="flex-1"><a href="">Contact me</a></li>
+          <li><a href="">Resume</a></li>
+        </ul>
+        
+      </div>
+      
+    </nav>
+  )
+}
+
+
